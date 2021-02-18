@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+/* green = #56ab2f #a8e063
+red =#ff5f6d #ffc371
+blue = #4ca1af #c4e0e5
+*/
+
+
+#container{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( to bottom right, #ff5f6d, #ffc371);
+}
+
+#nav{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    height: 8%;
+    background-color: transparent;
+    padding: 0px 60px;
+    color: white;
+}
+
+#bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50px;
+    color: white;
+}
+
+#bar:hover{
+    background-color: white;
+    color:#ff5f6d;
+    cursor: pointer; 
+}
+
+#settings{
+    display: flex;
+    color: white;
+    font-weight: 500;
+    
+}
+
+#settings i{
+    margin-left: 20px;
+}
+
+#body{
+    width: 100%;
+    height: calc(100% - 8%);
+    background-color: transparent;
+    padding: 0 60px;
+  
+}
+
+#day{
+    color: white;
+    font-size: 25px;
+ 
+   
+}
+
+#day h2{
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.line{
+    width: 50%;
+    height: 1px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+
+
+#city h1{
+    font-size: 100px;
+    color: rgb(255, 255, 255);3
+    
+    letter-spacing: 20px;
+}
+
+#city p{
+    font-size: 15px;
+    color: white;
+    letter-spacing: 5px;
+    margin: 0 10px;
+    font-weight: 300;
+}
+
+#degree{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#degree i{
+    font-size: 70px;
+    margin: 20px;
+}
+
+#degree p{
+    font-size: 30px;
+}
+
+#prevtemp{
+    display: flex;
+    width: 50%;
+    height: 14%;
+}
+
+.temp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    background-color: transparent;
+}
+.temp{
+    color: #fff;
+}
+
+.temp h3{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.temp i{
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 30px;
+}
+
+.temp p{
+    font-size: 12px;
+}
